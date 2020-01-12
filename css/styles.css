@@ -1,11 +1,11 @@
 .first {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%)
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%)
 }
 
 .second {
     -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%)
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%)
 }
 
 .first {
