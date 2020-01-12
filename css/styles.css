@@ -1,0 +1,37 @@
+.first {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%)
+}
+
+.second {
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%)
+}
+
+.first {
+    padding-top: 25vh;
+    text-align: center;
+    min-height: 60vh;
+    background: url(https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.second {
+    text-align: center;
+    padding-top: 30vh;
+    margin-top: -20vh;
+    min-height: 60vh;
+    background: url(https://images.unsplash.com/photo-1577424205036-56e9e093b9b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.btn-white {
+    background: #fff;
+    min-width: 250px
+}
